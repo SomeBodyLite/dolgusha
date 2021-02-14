@@ -55,6 +55,7 @@ html {
 .logo-maintext {
   margin-left: 20px;
   text-decoration: none;
+  min-width: 240px;
 }
 .header-nav {
   display: flex;
@@ -299,4 +300,10 @@ html {
   text-align: right;
 
   color: #8bbbfd;
+}
+.card-name > * {
+  margin-right: 23px;
+}
+.card-name > *:last-child {
+  margin-right: 0;
 }
